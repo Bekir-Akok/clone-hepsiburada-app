@@ -1,0 +1,130 @@
+.slider{
+    height: 50vh;
+    padding: 5vh 0;
+    background-color: #ed6324;
+} 
+.slider-wrapper {
+  width: 1200px;
+  margin: auto;
+}
+.slider-background{
+  width: 100%;
+  height: 50vh;
+  background-repeat: repeat;
+}
+
+.slider-main{
+    background-color: #fff;
+    padding: 5px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+.slider-text{
+    width: 40%;
+    text-align: left;
+    padding: 0 0 0 40px ;
+}
+.slider-text h3 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: .5;
+  letter-spacing: .34px;
+  color:#777;
+}
+.slider-text h1 {
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: .34px;
+  color:#444;
+}
+  .slick-slide {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    transition: all .5s ease;
+  }
+  .slick-slide:focus {
+    outline: none;
+  }
+  .slick-slide-title {
+    text-transform: capitalize;
+  }
+  .slick-slide-image {
+    max-width: 672px;
+    height: auto; 
+    border-radius: 8px;
+  }
+  .slick-slide-label {
+    color: #fff;
+    padding: 10px;
+    position: absolute;
+    left: 0px;
+    font-size: 1.5em;
+    bottom: 0px;
+    width: 100%;
+  }
+  .slick-prev:before,
+  .slick-next:before {
+    color: #777777;
+  }
+
+
+  /*Thumbnails*/
+  .thumbnail-slider-wrap {
+    margin-top: 15px;
+    height: 85px;
+  }
+  .thumbnail-slider-wrap .slick-track .slick-slide {
+    text-align: center;
+  }
+  .thumbnail-slider-wrap .slick-track .slick-slide img {
+    width: 71px;
+    height: auto;
+    
+  }
+
+  /* Arrows*/
+  .slick-prev {
+    left: -60px !important;
+    top: 107% !important;
+  }
+  .slick-next{
+    top: 107% !important;
+  }
+  
+  .slick-next:before,
+  .slick-prev:before {
+    content: "" !important;
+  }
+  .next-slick-arrow,
+  .prev-slick-arrow {
+    color: #fff;
+    font-size: 30px;
+  }
+
+  .arrow-frame{
+    text-align: center;
+    line-height: 20px;
+    border: 1px solid #fff;
+    width: 55px;
+    height: 30px;
+    border-radius:15px ;
+  }
+
+
+  /* Buttons*/
+
+  .btn{
+    color:#fff;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 20px;
+    height: 40px;
+    width: 180px;
+    outline:none;
+    border: none;
+    margin-top: 30px;
+  }
+
